@@ -19,7 +19,9 @@ html {
 }
 
 .dropbtn {
-    background-color: #ffffff;
+    margin-top: -118px;
+    margin-left: -118px;
+    background-color: #ffffff00;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -33,6 +35,7 @@ html {
 }
 
 .dropdown-content {
+    margin-left: -118px;
     display: none;
     position: absolute;
     right: 0;
@@ -109,11 +112,10 @@ html {
 
 h1 {
     display: block;
-    font-size: 2em;
+    font-size: 1.4em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
-    margin-inline-start: 50%;
-    margin-inline-end: 50%;
+    margin-inline-start: 80%;
     font-weight: bold;
     unicode-bidi: isolate;
     margin-top: 50px;
