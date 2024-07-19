@@ -8,7 +8,7 @@ html {
     box-sizing: inherit;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -40,7 +40,7 @@ html {
     right: 0;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -51,9 +51,17 @@ html {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #da1c1c;}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #da1c1c;
+}
 
 .grid {
     max-width: 1200px;
@@ -72,7 +80,7 @@ html {
     object-fit: cover;
 }
 
-.sport{
+.sport {
     max-width: 1200px;
     margin: 0 auto;
     padding: 16px;
@@ -84,13 +92,13 @@ html {
     align-items: start;
 }
 
-.sport img{
+.sport img {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
-.Weather{
-    background-color:rgba(137, 187, 243, 0.13);
+.Weather {
+    background-color: rgba(137, 187, 243, 0.13);
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -104,7 +112,7 @@ html {
     font-size: 25px;
 }
 
-.Weather img{
+.Weather img {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -144,7 +152,7 @@ h3 {
     margin-top: 50px;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: rgb(255, 255, 255);
     font-size: 16px;
@@ -152,4 +160,3 @@ footer{
     height: 110px;
     margin-top: 50px;
 }
-
